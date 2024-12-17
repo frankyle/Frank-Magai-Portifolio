@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from './../images/my_profile.jpg';
+import img2 from './../images/my_prof.jpg';
 
 const About = ({id}) => {
   return (
@@ -28,16 +28,15 @@ const About = ({id}) => {
           </div>
 
           <p className="text-base text-gray-600 leading-loose mb-4 animate__animated animate__fadeIn animate__delay-3s">
-            I am a Web Designer, Developer, and Programmer with a passion for
-            creating clean, functional, and visually appealing websites. I
-            specialize in building user-friendly web applications and custom
-            solutions that meet the unique needs of my clients.
+            I am a Web Designer, Developer, Programmer, and Security Equipment Installation Expert with a passion for
+            creating clean, functional, and visually appealing websites. I specialize in building user-friendly web applications
+            and custom solutions that meet the unique needs of my clients.
           </p>
           <p className="text-base text-gray-600 leading-loose animate__animated animate__fadeIn animate__delay-4s">
-            As a System Developer, I focus on designing efficient and scalable
-            systems that help businesses grow. Whether it's creating a website,
-            web app, or a complex system, I bring your ideas to life with a mix
-            of creativity and technical expertise.
+            As a System Developer, I focus on designing efficient and scalable systems that help businesses grow. Whether it's creating a website,
+            web app, or a complex system, I bring your ideas to life with a mix of creativity and technical expertise.
+            Additionally, I specialize in the professional installation of security systems, including CCTV cameras, electric fences,
+            fire alarms, and access control systems, ensuring the safety and protection of your premises.
           </p>
         </div>
       </div>
