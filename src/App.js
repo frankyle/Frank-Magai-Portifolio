@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import FloatingWhatsAppButton from './components/FloatingWhatsAppButton'; // Import the button component
+import ImageGallery from './components/ImageGallery.';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services id="services" />
       <Portfolio id="portfolio" />
       <Contact id="contact" />
+      <ImageGallery/>  
       <Footer />
       <FloatingWhatsAppButton /> {/* Add the floating button here */}
     </div>

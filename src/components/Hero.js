@@ -48,7 +48,7 @@ function Hero() {
         </div>
         <ReactTyped
           className="text-3xl md:text-5xl text-white font-semibold"
-          strings={["WEB-DESIGNER", "PROGRAMMER", "SYSTEM DEVELOPER"]}
+          strings={["WEB-DESIGNER", "PROGRAMMER", "SYSTEM DEVELOPER","CCTV CAMERA Installer","ELECTRIC FENCE Installer","INTRUDER ALARM Installer" ]}
           typeSpeed={70}
           backSpeed={70}
           loop

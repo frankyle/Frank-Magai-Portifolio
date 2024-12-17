@@ -1,7 +1,20 @@
 import React from 'react';
-import { FaLaptopCode, FaCog, FaChalkboardTeacher, FaBullhorn, FaDesktop, FaChartLine } from 'react-icons/fa';
+import { 
+  FaLaptopCode, 
+  FaCog, 
+  FaChalkboardTeacher, 
+  FaBullhorn, 
+  FaDesktop, 
+  FaChartLine, 
+  FaCamera, 
+  FaLock, 
+  FaBell, 
+  FaMapMarkerAlt, 
+  FaDoorOpen, 
+  FaFire 
+} from 'react-icons/fa';
 
-const Service = ({id}) => {
+const Service = ({ id }) => {
   const services = [
     {
       icon: <FaLaptopCode className="text-4xl text-blue-500" />,
@@ -32,13 +45,43 @@ const Service = ({id}) => {
       icon: <FaChartLine className="text-4xl text-teal-500" />,
       title: "Forex Training for Beginners",
       description: "Providing comprehensive training to help beginners understand and navigate the forex trading market.",
+    },
+    {
+      icon: <FaCamera className="text-4xl text-red-500" />,
+      title: "CCTV Camera Installations",
+      description: "Installing high-quality CCTV cameras to ensure the security and surveillance of your premises.",
+    },
+    {
+      icon: <FaLock className="text-4xl text-indigo-500" />,
+      title: "Electric Fence Installations",
+      description: "Providing durable and efficient electric fencing solutions to secure your property.",
+    },
+    {
+      icon: <FaBell className="text-4xl text-pink-500" />,
+      title: "Intruder and Panic Alarm",
+      description: "Setting up advanced intruder and panic alarm systems to enhance safety and quick response.",
+    },
+    {
+      icon: <FaMapMarkerAlt className="text-4xl text-gray-500" />,
+      title: "GPRS Tracker",
+      description: "Offering GPRS tracking solutions to monitor and safeguard your assets effectively.",
+    },
+    {
+      icon: <FaDoorOpen className="text-4xl text-cyan-500" />,
+      title: "Motor Gates",
+      description: "Installing automated motor gates for enhanced convenience and security.",
+    },
+    {
+      icon: <FaFire className="text-4xl text-orange-600" />,
+      title: "Fire Alarm Installation",
+      description: "Providing reliable fire alarm systems to ensure timely alerts and safety from fire hazards.",
     }
   ];
 
   return (
     <section id={id} className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
-      <div className="mb-12">
+        <div className="mb-12">
           <span className="block text-blue-500 text-6xl mb-2 animate-bounce">★</span>
           <h2 className="text-5xl font-extrabold text-gray-800 relative inline-block">
             What I Offer
